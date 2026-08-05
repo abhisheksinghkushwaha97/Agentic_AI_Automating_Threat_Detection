@@ -35,9 +35,6 @@ The repository contains complete source code, IaC snippets, prompts, diagrams, d
 
 ---
 
-## System Architecture
-![System Architecture](Resources/Flow-chart/Architecture.png)
-
 Four Lambda agents flow in a serverless chain:
 1. **NetGuard Ingestor** – Splits raw PCAP/CSV traffic into 100‑row chunks  
 2. **NetGuard Analyzer** – Matches each chunk with anomaly logs and calls SecureGPT  
@@ -94,8 +91,6 @@ Four Lambda agents flow in a serverless chain:
 
 - Post-Reflexion Improvements: Reflexive updates improved precision.
 - Load Handling: Parallel chunking & SecureGPT invocation scaled efficiently.
-
-![Accuracy vs F1](Results/Quality_metrics_with_reflection.png)
 
 ---
 
