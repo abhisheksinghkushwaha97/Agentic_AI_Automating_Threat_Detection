@@ -1,6 +1,6 @@
 
 
-# NetGuard – Agentic AI for Real‑Time Network Traffic Monitoring & Proactive Threat Mitigation
+# NetGuard – Agentic AI for Intelligent Real-Time Network Traffic Analysis & Proactive Threat Detection
 
 ---
 
